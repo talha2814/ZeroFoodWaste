@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensures full viewport height is utilized */
+  width: 100vw; /* Ensures full viewport width is utilized */
+  overflow: hidden; /* Prevents scrolling on the body directly */
+  background-color: #f0f2f5;
+}
+
+
+/* Assuming you have a .Sidebar class */
+.Sidebar {
+  width: 250px; /* Width of the sidebar */
+  height: 90vh; /* Adjusts the height to fill the space below the navbar */
+  position: fixed;
+  top: 10vh; /* Aligns below the navbar */
+  /* Rest of your sidebar styling */
+}
+
+/* Main content area */
+.main-content {
+  margin-top: 10vh; /* Offset for navbar */
+  margin-left: 250px; /* Offset for sidebar */
+  height: calc(100vh - 10vh); /* Adjusts height to fill space below navbar */
+  width: calc(100vw - 250px); /* Adjusts width to account for sidebar */
+  overflow-y: auto; /* Allows scrolling within content if needed */
+  padding: 20px; /* Provides internal spacing */
+  box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+
+/* Ensure any global settings don't interfere with layout */
+*, *::before, *::after {
+  box-sizing: inherit; /* Inherits box-sizing from body to ensure consistency */
+}
+

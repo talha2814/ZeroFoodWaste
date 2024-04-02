@@ -1,0 +1,107 @@
+.profile-container {
+    max-width: 1080px;
+    font-family: Arial, sans-serif;
+    padding-bottom: 20px;
+    position: relative; /* Added position relative */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    max-height: 500px; /* Adjust this value as needed to enforce scrolling */
+  }
+  
+  /* Add a new class for the inner content wrapper */
+  .profile-content-wrapper {
+    position: absolute; /* Position it absolutely to be inside profile-container */
+    left: 0;
+    right: 0; /* These two properties will center the content */
+    top: 0;
+    bottom: 0;
+    padding-right: 20px; /* Add padding to the right if scrollbar is overlaying content */
+  }
+  
+  .body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .profile-header {
+    text-align: center;
+    padding-bottom: 1rem; /* Space for the 'Edit Profile picture' button */
+  }
+  
+  .profile-picture {
+    width: 150px; /* Adjust as needed */
+    height: 150px;
+    border-radius: 50%;
+    display: block; /* Center image */
+    margin: 0 auto 1rem; /* Auto margins for horizontal centering and margin-bottom for space */
+    margin-top: 30px;
+  }
+  
+  .edit-picture-button {
+    display: inline-block;
+    margin-top: 10px; /* Adjust as needed */
+    padding: 8px 15px; /* Padding inside the button */
+    background-color: #104579; /* A nice blue shade, you can use any color you like */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change mouse cursor to indicate it's clickable */
+    font-weight: bold; /* Make text inside the button bold */
+    text-align: center; /* Center the text inside the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none; 
+  }
+  
+  .profile-info {
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    padding: 20px; /* Space inside the container */
+    margin-top: 20px; /* Space above the container */
+    margin-bottom: 20px; /* Space below the container */
+    max-width: 450px;
+    margin: 20px auto;
+  }
+  
+  .profile-info label {
+    color: #333; /* Dark grey color for text */
+    font-weight: bold; /* Make the label text bold */
+    margin-bottom: 10px; /* Space below each label */
+    display: block; /* Ensure the label is on a new line */
+  }
+  
+  .profile-info input {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners for the input fields */
+    padding: 10px; /* Spacing inside the input fields */
+    margin-bottom: 15px; /* Space below the input fields */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the input field's width */
+  }
+  
+  .profile-info input:focus {
+    border-color: #007bff; /* Highlight color when input is focused */
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.25); /* Subtle glow effect */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  
+  .save-button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 2rem; /* Add space between the last input and the button */
+    cursor: pointer;
+    display: block; /* Center the button */
+    width: fit-content; /* Adjust the width as per content size */
+   
+  margin: 2rem auto 0; /* Center the button and give space at the top */
+  }
+  
+  .save-button:hover {
+  background: #0056b3;
+  }

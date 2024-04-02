@@ -1,0 +1,36 @@
+.navbar {
+  height: 10vh; /* Maintains a proportional height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #494949, #ff6347); /* Stylish gradient background */
+  padding: 0 20px; /* Adjusted padding for balance */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px; /* Adjust based on your logo's size */
+  width: auto;
+}
+
+.logo-text {
+  margin-left: 2px; 
+  font-size: 20px; 
+  color: #eee7e7; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+  margin: 0 15px; /* Adjust spacing between nav links */
+  text-decoration: none;
+  color: #ffffff; /* Adjust link color as needed */
+  /* Add other styles for your links here */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

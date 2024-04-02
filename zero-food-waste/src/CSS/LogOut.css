@@ -1,0 +1,40 @@
+
+.logoutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; 
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .logoutContainer h1 {
+    margin-bottom: 24px;
+    font-size: 1.5em; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.1em; 
+    color: white;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .logoutContainer h1 {
+      font-size: 1.2em;
+    }
+  }
+  

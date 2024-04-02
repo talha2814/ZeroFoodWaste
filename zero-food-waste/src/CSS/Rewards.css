@@ -1,0 +1,80 @@
+/* RewardsPage.css */
+
+.rewards-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+
+  height: calc(100vh - 30px);
+}
+
+.points-box {
+  width: auto; /* Allows the box to grow only as large as needed */
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  position: relative;
+  text-align: center;
+}
+
+.points-box h2 {
+  color: #4CAF50;
+  margin: 0;
+  padding: 0.5em 0;
+  background-color: #ffffff;
+  border-radius: 8px 8px 0 0;
+}
+
+.balance-info {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  margin: 0.5em 0;
+}
+
+.voucher-value {
+  background-color: #eeeeee;
+  color: #333;
+  padding: 0.5em;
+  border-radius: 5px;
+  top: 1.5em;
+  right: 1em;
+  font-weight: bold;
+  margin-bottom: 1cm;
+}
+
+.convert-button-container {
+  text-align: center; /* This will center the button */
+  margin-top: 1em;
+}
+
+.convert-button {
+  border: 1cm;
+  background-color: #007bff;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.info-link {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.info-link:hover {
+  text-decoration: underline;
+}

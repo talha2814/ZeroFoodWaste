@@ -1,0 +1,103 @@
+.food-tracking-system {
+    display: flex;
+    justify-content: space-between;
+    height: 460px; 
+    padding: 20px;
+    gap: 20px;
+    /* Space between form and table */
+}
+
+/* Form styling */
+.new-item-form {
+    flex: 1 1 50%;
+    /* Take up 60% of the flex container */
+    background: #fff;
+    /* White background */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    padding: 20px;
+    /* Padding inside the form */
+    max-width: 400px;
+    /* Maximum width of the form */
+}
+
+/* Shared input, select, and button styling */
+.new-item-form input,
+.new-item-form select,
+.new-item-form button {
+    width: 100%;
+    /* Full width to match other inputs */
+    padding: 10px;
+    /* Sufficient padding */
+    margin-bottom: 10px;
+    /* Space below each form element */
+    border: 1px solid #ccc;
+    /* Consistent border styling */
+    border-radius: 4px;
+    /* Rounded corners */
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
+/* Style the select dropdown */
+.new-item-form select {
+    -webkit-appearance: none;
+    /* Remove default styling on WebKit browsers */
+    -moz-appearance: none;
+    /* Remove default styling on Mozilla browsers */
+    appearance: none;
+    /* Remove default styling */
+}
+
+/* Button styling */
+.new-item-form button {
+    background-color: #0044cc;
+    /* Use a color that stands out */
+    color: white;
+    /* Text color */
+    font-weight: bold;
+    /* Make text bold */
+    border: none;
+    /* No border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+/* Inventory list styling - same box style as form */
+.inventory-list {
+    flex: 1 1 60%; /* Adjust the flex basis to 60%, assuming this is the desired width */
+    background: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners set to 10px */
+    border-bottom: 1px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 20px; /* Padding inside the container */
+    overflow-y: auto; /* Scrollbar will appear when content overflows */
+    max-height: 500px; /* Adjust max height as needed for your design */
+    /* Add a max-width or width if necessary to control the width */
+  }
+  
+
+
+.inventory-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.inventory-list th,
+.inventory-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid grey;
+
+}
+
+
+.inventory-list th {
+    background-color: #eee;
+    border-bottom: 2px solid #ddd;
+}
+
+

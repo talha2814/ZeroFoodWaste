@@ -1,0 +1,61 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 10vh); 
+  width: 200px; 
+  position: fixed; 
+  top: 10vh; 
+  background: linear-gradient(45deg, #0f1d4d, #537895);
+  color: white; 
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  font-size: 1rem; 
+  margin-bottom: 1px;
+}
+
+.Sidebarlist {
+  flex: 1;
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.Sidebar-Logout {
+  display: flex; 
+  flex-direction: column; 
+  margin-top: auto; 
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.Sidebarlist .row, .Sidebar-Logout .row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid 1px;
+  cursor: pointer;
+  margin-bottom: 1px;
+}
+
+.row:hover {
+  background-color: #2c3e50; 
+}
+
+.icon {
+  margin-right: 20px; 
+  margin-left: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+}
+
+.icon svg {
+  width: 40px; /* Adjusted icon size */
+  height: 40px; /* Adjusted icon size */
+}
+

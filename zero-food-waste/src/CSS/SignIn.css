@@ -1,0 +1,96 @@
+
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .signin-form {
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 200px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: 300;
+    color: #333;
+  }
+  
+  .form-actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-actions button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password-container {
+    width: 100%;
+    max-width: 400px; /* Set the max width for the form */
+    margin: auto;
+    padding: 2em;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 3cm;
+  }
+  
+  .forgot-password-container h1 {
+    color: #333;
+    margin-bottom: 1em;
+  }
+  
+  .forgot-password-container input[type="email"] {
+    width: calc(100% - 20px);
+    margin-bottom: 1em;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's width */
+  }
+  
+  .forgot-password-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c; /* Bootstrap 'success' green */
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .forgot-password-container button:hover {
+    background-color: #4cae4c; /* A slightly darker green */
+  }
+  
